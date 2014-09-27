@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Performance by bmuenzenmeyer</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Performance</h1>
+        <p>An abbreviated performance checklist with helpful resources</p>
+
+        <p class="view"><a href="https://github.com/bmuenzenmeyer/performance">View the Project on GitHub <small>bmuenzenmeyer/performance</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/bmuenzenmeyer/performance/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/bmuenzenmeyer/performance/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/bmuenzenmeyer/performance">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h3>
+<a name="an-abbreviated-performance-checklist-with-helpful-resources" class="anchor" href="#an-abbreviated-performance-checklist-with-helpful-resources"><span class="octicon octicon-link"></span></a>An abbreviated performance checklist with helpful resources</h3>
+
+<h4>
+<a name="foundation-and-design" class="anchor" href="#foundation-and-design"><span class="octicon octicon-link"></span></a>Foundation and Design</h4>
+
+<ul>
+<li>[ ] Set clear expectations for performance</li>
+<li>[ ] Measure performance throughout design and development</li>
+<li>[ ] Test under sub-optimal conditions</li>
+<li>[ ] Test with actual devices</li>
+<li>[ ] Only include content that is necessary for the audience/message</li>
+<li>[ ] Allow opt-in experiences</li>
+<li>[ ] Utilize lazy loading and progressive enhancement</li>
+<li>[ ] Remove unnecessary dependencies or files, like libraries that are overkill</li>
+<li>[ ] Perceived performance can be just as important as actual performance</li>
+</ul><h4>
+<a name="lets-get-technical" class="anchor" href="#lets-get-technical"><span class="octicon octicon-link"></span></a>Let's Get Technical!</h4>
+
+<p>The following tools are pretty grunt heavy, but <a href="http://gulpjs.com/">similar</a> <a href="http://webgrease.codeplex.com/documentation">analogs</a> exist</p>
+
+<ul>
+<li>[ ] Minify HTML (<a href="http://perfectionkills.com/html-minifier-revisited/">Grunt HTMLmin</a>)</li>
+<li>[ ] Minify CSS (<a href="https://github.com/gruntjs/grunt-contrib-cssmin">Grunt CSSMin</a>)  (<a href="https://github.com/gruntjs/grunt-contrib-sass">Grunt Sass <code>style</code></a>)</li>
+<li>[ ] Minify Javascript (<a href="https://github.com/gruntjs/grunt-contrib-uglify">Grunt Uglify</a>)</li>
+<li>[ ] Concatenate javascript (<a href="https://github.com/gruntjs/grunt-contrib-concat">Grunt Concat</a>)</li>
+<li>[ ] Optimize the delivery of traditional images (<a href="http://www.smushit.com/ysmush.it/">Smush It App</a>) (<a href="https://github.com/gruntjs/grunt-contrib-imagemin">Grunt Imagemin</a>)</li>
+<li>[ ] Sprite images, consider icon fonts and/or inline as SVG (<a href="http://benfrain.com/image-sprites-data-uris-icon-fonts-v-svgs/">Article and Grunt</a>)</li>
+<li>[ ] Prioritize above the fold, critical content and CSS (<a href="https://github.com/pocketjoso/penthouse">Grunt Penthouse</a>)</li>
+<li>[ ] GZIP traffic (<a href="https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/optimize-encoding-and-transfer">Google Guidelines</a>) (<a href="https://github.com/h5bp/server-configs">H5BP Server Configs</a>)</li>
+<li>[ ] Utilize proper caching (<a href="https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching">Google Guidelines</a>)</li>
+<li>[ ] Load webfonts asynchronously (<a href="https://github.com/typekit/webfontloader">Webfont Loader</a>)</li>
+</ul><h4>
+<a name="performance-measuring-tools" class="anchor" href="#performance-measuring-tools"><span class="octicon octicon-link"></span></a>Performance Measuring Tools</h4>
+
+<ul>
+<li><a href="http://www.webpagetest.org/">Web Page Test</a></li>
+<li><a href="https://developers.google.com/speed/pagespeed/insights/">Google Page Speed Insights</a></li>
+</ul><h4>
+<a name="go-forth-be-performant" class="anchor" href="#go-forth-be-performant"><span class="octicon octicon-link"></span></a>Go forth, be performant!</h4>
+
+<p>There are many more resources out there; the web is a beatuful mosiac. Find more performance inspiration here:</p>
+
+<ul>
+<li><a href="http://timkadlec.com/2013/01/setting-a-performance-budget/">Set a Performance Budget</a></li>
+<li><a href="http://perf-tooling.today/">Performance Tooling Today</a></li>
+</ul>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/bmuenzenmeyer">bmuenzenmeyer</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-32459118-4");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
