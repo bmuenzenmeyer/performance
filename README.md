@@ -5,7 +5,7 @@
 
 * Set clear expectations for performance
 * Measure performance throughout design and development
-* Test under sub-optimal conditions
+* Test under [sub-optimal conditions](http://jagt.github.io/clumsy/)
 * Test with actual devices
 * Only include content that is necessary for the audience/message
 * Allow opt-in experiences
